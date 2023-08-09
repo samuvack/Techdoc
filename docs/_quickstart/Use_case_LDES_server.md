@@ -1,7 +1,7 @@
 ---
 title: Use case LDES server
 layout: home
-sort: 10
+sort: 3
 ---
 
 # Use case LDES server
