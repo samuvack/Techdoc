@@ -10,6 +10,9 @@ callouts:
   note:
     title: Note
     color: yellow
+  tip:
+    title: Tip
+    color: green
 
 aux_links:
   LDI Repository: https://github.com/Informatievlaanderen/VSDS-Linked-Data-Interactions
