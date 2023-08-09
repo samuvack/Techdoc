@@ -11,7 +11,7 @@ callouts:
     title: Note
     color: yellow
   highlight:
-    title: Highlight
+    title: Tip
     color: green
 
 aux_links:
