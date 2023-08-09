@@ -1,7 +1,7 @@
 ---
 title: Specification
 layout: home
-sort: 3
+sort: 2
 ---
 
 # Specification

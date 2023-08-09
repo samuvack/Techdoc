@@ -1,7 +1,7 @@
 ---
 title: LDES Client
 layout: home
-sort: 5
+sort: 3
 ---
 
 # LDES Client
