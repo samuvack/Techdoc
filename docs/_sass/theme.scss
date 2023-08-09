@@ -66,11 +66,16 @@ color:#666
 .site-header .site-header:hover{
         background-color: #ffe615;
         color: #666;
-        
+
         
     }
 
 .sidebar-wrap .sidebar .header,
 .sidebar-wrap .sidebar .toctree {
     width: 300px;
+}
+
+.lh-tight:hover .lh-tight{
+    background-color: #ffe615;
+    color: #666;
 }
