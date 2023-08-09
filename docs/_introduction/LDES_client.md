@@ -1,4 +1,6 @@
 ---
+title: LDES Client
+layout: home
 sort: 5
 ---
 
