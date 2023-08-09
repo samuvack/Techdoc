@@ -1,11 +1,10 @@
 ---
 title: LDES Server
 layout: home
-sort: 6
+sort: 4
 ---
 
 # LDES Server
-
 
 The Linked Data Event Stream (LDES) [server](https://github.com/Informatievlaanderen/VSDS-LDESServer4J) is a configurable component that can be used to ingest, store, and (re-)publish one or multiple Linked Data Event Stream(s). The open-source LDES server is built in the context of the [VSDS project](https://www.vlaanderen.be/vlaamse-smart-data-space-portaal) to exchange (Open) Data easily.
 

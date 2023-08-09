@@ -1,14 +1,12 @@
 ---
-title: LDES Client
-layout: home
 sort: 5
 ---
 
-# LDES CLIENT
+# LDES Client
 
 <p align="center"><img src="/VSDS-Tech-Docs/images/LDES%20client.png" width="60%" text-align="center"></p>
 
-The [LDES Client](https://github.com/Informatievlaanderen/VSDS-Linked-Data-Interactions) is designed for replication and synchronisation, meaning the client can retrieve members of an LDES but also checks regularly if new members are added and fetch them, allowing data consumers to stay up to date with the dataset.
+The [LDES CLIENT](https://github.com/Informatievlaanderen/VSDS-Linked-Data-Interactions) is designed for replication and synchronisation, meaning the client can retrieve members of an LDES but also checks regularly if new members are added and fetch them, allowing data consumers to stay up to date with the dataset.
 
 To understand the functioning of an LDES client, it is important to understand how LDESes are published on the Web. The [Linked Data Fragments](https://linkeddatafragments.org/specification/linked-data-fragments/) principle is utilised for publishing an LDES, meaning that the data is published in one or more fragments and meaningful semantic links are created between these fragments. This approach facilitates clients to follow these links and discover additional data. However, the critical aspect for the LDES client is the notion of mutable and immutable fragments. When publishing an LDES stream, a common configuration is to have a maximum number of members per fragment. Once a fragment surpasses this limit, it is regarded as immutable, and a **'Cache-control: immutable'** cache header is added to the fragment to signify this. This information is crucial for the LDES client since it only needs to retrieve an immutable fragment once, while mutable fragments must be regularly polled to identify new members.
 
@@ -36,4 +34,4 @@ An essential functionality of the LDES client is *resuming*, enabling the client
 
 ## Linked Data Interactions
 
-The LDES client component is written in Java and available as an [SDK](https://github.com/Informatievlaanderen/VSDS-Linked-Data-Interactions/tree/main/ldi-core/ldes-client) in the Linked Data Interactions repository. More information about Linked Data Interactions can be found [here](/docs/Linked_Data_Interactions.md).
+The LDES client component is written in Java and available as an [SDK](https://github.com/Informatievlaanderen/VSDS-Linked-Data-Interactions/tree/main/ldi-core/ldes-client) in the Linked Data Interactions repository. More information about Linked Data Interactions can be found [here](/VSDS-Tech-Docs/docs/LINKED_DATA_INTERACTIONS.html).
