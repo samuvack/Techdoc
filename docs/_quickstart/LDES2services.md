@@ -34,9 +34,9 @@ The LDES2Service toolbox contains an "RDF4J Put" processor, allowing to ingest m
 
 9.  LDES members will be replicated one by one into your GraphDB
 
-```tip
+{: .highlight }
 You can find more information in [this article]( https://medium.com/towards-artificial-intelligence/real-time-data-linkage-via-linked-data-event-streams-e1aab3090b40)
-```
+
 
 ## PostgreSQL & TimescaleDB
 
