@@ -14,6 +14,8 @@ callouts:
     title: Tip
     color: green
 
+color_scheme: foo
+
 aux_links:
   LDI Repository: https://github.com/Informatievlaanderen/VSDS-Linked-Data-Interactions
 
