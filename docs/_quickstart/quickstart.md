@@ -17,11 +17,9 @@ The files you will use for this quick start guide is available here
 <br>
 <br>
 
-```note
-
+{: .note }
 This quick start example demonstrates only a small amount of the capabilities of the LDES Server. For more information about the LDES server, please consult the [LDES Server Manual](https://github.com/Informatievlaanderen/VSDS-LDESServer4J).
 
-```
 
 ### Before starting
 
