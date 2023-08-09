@@ -65,4 +65,10 @@ color:#666
 
 .site-header{
         background-color: #ffe615;
+        
     }
+
+@media (min-width: 768px) .sidebar-wrap .sidebar .header,
+.sidebar-wrap .sidebar .toctree {
+    width: 300px;
+}
