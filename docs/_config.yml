@@ -16,7 +16,10 @@ aux_links:
 
 # Define Jekyll collections
 collections:
-  ldesclient:
+  introduction:
+    permalink: "/:collection/:path"
+    output: true
+  quickstart:
     permalink: "/:collection/:path"
     output: true
   core:
@@ -28,17 +31,27 @@ collections:
   ldi-nifi:
     permalink: "/:collection/:path"
     output: true
+  releasemanagement:
+    permalink: "/:collection/:path"
+    output: true
+
+
 
 just_the_docs:
   collections:
-    ldesclient:
-      name: LDES Client
+
+    introduction:
+      name: Introduction to LDES
+    quickstart:
+      name: Quickstart
     core:
       name: Linked Data Interactions Core Building Blocks
     ldio:
       name: Linked Data Interactions Orchestrator
     ldi-nifi:
       name: Linked Data Interactions for Apache NiFi
+    release:
+      name: Release Management
 
 
 enable_copy_code_button: true
