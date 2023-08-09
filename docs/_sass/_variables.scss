@@ -1,25 +1,14 @@
----
----
-{% if site.color_scheme and site.color_scheme != "nil" %}
-  {% assign color_scheme = site.color_scheme %}
-{% else %}
-  {% assign color_scheme = "light" %}
-{% endif %}
-{% include css/just-the-docs.scss.liquid color_scheme=color_scheme %}
+// fonts
+$body-font: "FlandersArtSans-Regular", BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif;
+$head-font: "FlandersArtSans-SerifThin", sans-serif;
+$mono-font: Consolas, "Liberation Mono", Menlo, monospace;
 
-@import "theme.scss";
 
 // theme color
 $theme-blue: #ffe615;
 $theme-red: #e74c3c;
 $theme-green: #1abc9c;
 $theme-orange: #e67e22;
-
-$black: black;
-$blue: blue;
-$purple: purple;
-$bg-gray: gray;
-
 
 $theme-white: lighten($black, 99%);
 $theme-black: lighten($black, 15%);
@@ -44,26 +33,3 @@ $theme-menu-width-sm: 85%;
 $theme-menu-width: 300px;
 $theme-menu-background: darken($theme-black, 10%);
 $theme-menu-active-background: darken($theme-blue, 15%);
-
-.container {
-
-  background: #fff;
-}
-
-.pb-1 {
-  color: #666
-}
-
-.addons-wrap .status {
-
-  background-color: #ccd2d8;
-}
-
-.addons-wrap .addons dd a {
-  color: #666
-}
-
-.addons-wrap .status .branch .name {
-  color: #0055CC
-}
-
