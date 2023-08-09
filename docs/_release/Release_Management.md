@@ -87,11 +87,7 @@ Here you can find the [**archived** LDES connector repository](https://github.co
 
 
 ## Notification of new releases
-```tip
-
+{: .highlight }
 To get informed when a new version of a building block is released, go to 'watch'
-
 ![](/VSDS-Tech-Docs/images/releases.png)
-
 On the [notifications](https://github.com/notifications) page, you can see your personal notification subscribtions  
-```

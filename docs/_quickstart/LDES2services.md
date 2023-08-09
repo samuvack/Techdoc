@@ -66,9 +66,9 @@ In this [Github repo](https://github.com/samuvack/LDES2TimescaleDB), you will fi
 
 ![Linked Data Event Streams and TimescaleDB for Real-time Timeseries Data Management](../images/Real-timeTimeseries.PNG)
 
-```tip
+{: .highlight }
 You can find more information in [this article](https://medium.com/towards-artificial-intelligence/linked-data-event-streams-and-timescaledb-for-real-time-timeseries-data-management-9e82ba336f82)
-```
+
 
 ## PowerBI
 
@@ -100,9 +100,9 @@ A workflow is configured in Apache NiFi to replicate the LDES members into Postg
 
 11. [Link PostgreSQL to Geoserver](https://docs.geoserver.org/latest/en/user/data/database/postgis.html)
 
-```tip
+{: .highlight }
 You can find more information in [this article](https://medium.com/p/5cd8379d32)
-```
+
 
 
 ## GeoServer
@@ -136,9 +136,9 @@ A data flow is configured in Apache NiFi to convert these data streams into Post
 
 ![]()
 
-```tip
+{: .highlight }
 You can find more information in [this article](https://medium.com/geekculture/enriching-digital-twins-with-linked-data-event-streams-285630a02b82)
-```
+
 
 
 ## LDES to QGIS
@@ -153,9 +153,9 @@ You can find more information in [this article](https://medium.com/geekculture/e
 
 
 
-```tip
+{: .highlight }
 You can find more information in [this article](https://medium.com/geekculture/visualizing-linked-data-event-streams-with-qgis-da25b6ccfc1b)
-```
+
 
 
 ## Machine Learning (ML-LDES server)
@@ -196,6 +196,5 @@ A data flow is configured in Apache NiFi to convert these data streams into Post
 
 [Go to github repo for more info about ML-LDES server prototype](https://github.com/samuvack/ML-LDES-server)
 
-```tip
+{: .highlight }
 You can find more information in [this](https://medium.com/towards-artificial-intelligence/incremental-machine-learning-for-linked-data-event-streams-e5441cb4c65a) and [this article](https://medium.com/towards-artificial-intelligence/forecasting-linked-data-event-streams-on-the-internet-of-water-826171085bae)
-```

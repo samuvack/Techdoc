@@ -6,10 +6,8 @@ sort: 3
 
 # Use case LDES server
 
-```tip
+{: .highlight }
 Having trouble implementing these examples? Please post your issue on the [VSDS Tech docs repo](https://github.com/Informatievlaanderen/VSDS-Tech-Docs/issues).
-
-```
 
 <p align="center"><img src="/VSDS-Tech-Docs/images/onboarding.png"  width="50%" text-align="center"></p>
 
