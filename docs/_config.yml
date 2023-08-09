@@ -16,6 +16,9 @@ aux_links:
 
 # Define Jekyll collections
 collections:
+  ldesclient:
+    permalink: "/:collection/:path"
+    output: true
   core:
     permalink: "/:collection/:path"
     output: true
@@ -28,6 +31,8 @@ collections:
 
 just_the_docs:
   collections:
+    ldesclient:
+      name: LDES Client
     core:
       name: Linked Data Interactions Core Building Blocks
     ldio:
