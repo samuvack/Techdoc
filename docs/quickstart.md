@@ -1,6 +1,4 @@
 ---
-title: Quick start
-layout: home
 sort: 1
 ---
 
