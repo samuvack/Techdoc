@@ -15,7 +15,7 @@ callouts:
     color: green
 
 aux_links:
-  LDI Repository: https://github.com/Informatievlaanderen/VSDS-Linked-Data-Interactions
+  VSDS portal: https://www.vlaanderen.be/vlaamse-smart-data-space-portaal
 
 # Define Jekyll collections
 collections:
