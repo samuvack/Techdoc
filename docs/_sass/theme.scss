@@ -133,7 +133,11 @@ color:#666
     background-color: #F5F5F5;
 }
 
-
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 .site-title:not(.active):hover{
     
