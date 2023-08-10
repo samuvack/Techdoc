@@ -152,9 +152,6 @@ function searchLoaded(index, docs) {
       return;
     }
 
-    const container = document.querySelector('#container')
-    const bs = new BeautifyScrollbar(container);
-
     var results = index.query(function (query) {
       var tokens = lunr.tokenizer(input)
       query.term(tokens, {
