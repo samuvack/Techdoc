@@ -151,6 +151,9 @@ body {
 .topnav {
     background-color: white;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid lightgray;
 }
 
 /* Style the links inside the navigation bar */
@@ -166,14 +169,13 @@ body {
     font-size: 17px;
 
 }
-.topnav{
-    border-bottom: 1px solid lightgray;
 
-}
 
 .space {
     background-color: white;
     overflow: hidden;
+    position: fixed;
+    top: 0;
 }
 
 .space a{
