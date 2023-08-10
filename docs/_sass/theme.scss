@@ -168,9 +168,14 @@ body {
 
 }
 
+.space {
+    background-color: white;
+    overflow: hidden;
+}
+
 .space a{
     float: left;
-    color: #666;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -184,4 +189,9 @@ body {
 .topnav a.active {
     background-color: white;
     color: white;
+}
+
+img {
+    max-width: 100%;
+    height: 2;
 }
