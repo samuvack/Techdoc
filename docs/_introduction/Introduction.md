@@ -4,7 +4,7 @@ layout: home
 sort: 2
 ---
 
-{% include footer_custom.html % }
+
 
 
 # Introduction
