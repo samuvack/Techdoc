@@ -206,21 +206,7 @@ body {
 }
 
 
-a:link {
-    color: red;
+a:link a:visited a:hover a:active{
+    color: #05c;
 }
 
-/* visited link */
-a:visited {
-    color: green;
-}
-
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-
-/* selected link */
-a:active {
-    color: blue;
-}
