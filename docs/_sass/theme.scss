@@ -104,15 +104,15 @@ color:#666
 
 /* Track */
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+    //-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    //-webkit-border-radius: 10px;
+    //border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+    //-webkit-border-radius: 10px;
+    //border-radius: 10px;
     background: rgba(211, 224, 244, 0.8);
     -webkit-box-shadow: inset 0 0 6px rgba(225, 223, 223, 0.5);
 }
