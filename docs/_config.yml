@@ -90,7 +90,7 @@ enable_copy_code_button: true
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Technical Documentation of the building blocks developed in the frame of the " <a href=\"https://www.vlaanderen.be/vlaamse-smart-data-space-portaal\">Flanders Smart Data Space</a>.
+footer_content: "Technical Documentation of the building blocks developed in the frame of the <a href=\"https://www.vlaanderen.be/vlaamse-smart-data-space-portaal\">Flanders Smart Data Space</a>."
 
 
 # Footer "Edit this page on GitHub" link text
@@ -105,3 +105,5 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "9.1.3"
+
+
