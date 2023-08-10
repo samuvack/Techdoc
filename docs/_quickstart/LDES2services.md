@@ -4,25 +4,22 @@ layout: home
 sort: 2
 ---
 
-
 This sections provides an overview of how data consumer can replicate data to different backend systems.
 
 ## Triple stores
 
-<p align="center"><img src="/VSDS-Tech-Docs/images/graphdb.png" width="80%" text-align="center"></p>
+<p align="center"><img src="https://samuvack.github.io/Techdoc/images/graphdb.png" width="80%" text-align="center"></p>
 
-The LDES2Service toolbox contains an "RDF4J Put" processor, allowing to ingest members in triple stores that support the RDF4J API. 
+The LDES2Service toolbox contains an "RDF4J Put" processor, allowing to ingest members in triple stores that support the RDF4J API.
 
 [In this Github repo](https://github.com/samuvack/ldes-grar), a docker-compose file with the configuration of **GraphDB** and Apache NiFi. A data flow is configured in Apache NiFi to replicate LDES members into GraphDB. There is already a preconfigured [Apache Nifi workflow file](https://github.com/samuvack/ldes-grar/blob/main/NiFi_Flow.json) available. Execute the following steps to start replicating data into GraphDB.
-
 
 1. Start Docker
 
 2. Make sure port `8433` (Apache Nifi) and `7200` (GraphDB) are accessible
 
 3. Create a local docker-compose.yml file with [the following good-to-go configuration](https://github.com/samuvack/ldes-grar/blob/main/docker-compose.yml)
-   
-4. Run  ```docker-compose up --build``` to start the Apache Nifi and GraphDB containers
+4. Run `docker-compose up --build` to start the Apache Nifi and GraphDB containers
 
 5. Configure an LDES endpoint in the LDES Client in Apache Nifi
 
@@ -32,15 +29,14 @@ The LDES2Service toolbox contains an "RDF4J Put" processor, allowing to ingest m
 
 8. Start the Apache NiFi workflow
 
-9.  LDES members will be replicated one by one into your GraphDB
+9. LDES members will be replicated one by one into your GraphDB
 
 {: .highlight }
-You can find more information in [this article]( https://medium.com/towards-artificial-intelligence/real-time-data-linkage-via-linked-data-event-streams-e1aab3090b40)
-
+You can find more information in [this article](https://medium.com/towards-artificial-intelligence/real-time-data-linkage-via-linked-data-event-streams-e1aab3090b40)
 
 ## PostgreSQL & TimescaleDB
 
-<p align="center"><img src="/VSDS-Tech-Docs/images/timescaledb.png"  width="80%" text-align="center"></p>
+<p align="center"><img src="https://samuvack.github.io/Techdoc/images/timescaledb.png"  width="80%" text-align="center"></p>
 
 In this [Github repo](https://github.com/samuvack/LDES2TimescaleDB), you will find a docker file with the configuration of TimescaleDB and Apache NiFi. A workflow is configured in Apache NiFi to replicate LDES members into TimescaleDB. You will find an Apache NiFi configuration file containing the necessary data flow. This Apache NiFi data flow works also for storing LDES members in a PostgreSQL database.
 
@@ -50,7 +46,7 @@ In this [Github repo](https://github.com/samuvack/LDES2TimescaleDB), you will fi
 
 3. Create a local docker-compose.yml file with [the following good-to-go configuration](https://github.com/samuvack/LDES2TimescaleDB/blob/main/docker-compose.yml)
 
-4. Run  ```docker-compose up --build```
+4. Run `docker-compose up --build`
 
 5. import the workflow in Apache NiFi (localhost:8443) via [this configuration file](https://github.com/samuvack/LDES2TimescaleDB/blob/main/iow_LDES_timescale.json)
 
@@ -69,12 +65,11 @@ In this [Github repo](https://github.com/samuvack/LDES2TimescaleDB), you will fi
 {: .highlight }
 You can find more information in [this article](https://medium.com/towards-artificial-intelligence/linked-data-event-streams-and-timescaledb-for-real-time-timeseries-data-management-9e82ba336f82)
 
-
 ## PowerBI
 
-<p align="center"><img src="/VSDS-Tech-Docs/images/powerbi.png"  width="80%" text-align="center"></p>
+<p align="center"><img src="https://samuvack.github.io/Techdoc/images/powerbi.png"  width="80%" text-align="center"></p>
 
-In this [Github repo](https://github.com/Informatievlaanderen/VSDS-LDESDemo/tree/master/geoserver), you will find a docker file with the configuration of PostgreSQL, Apache NiFi and a configuration file for PowerBI. 
+In this [Github repo](https://github.com/Informatievlaanderen/VSDS-LDESDemo/tree/master/geoserver), you will find a docker file with the configuration of PostgreSQL, Apache NiFi and a configuration file for PowerBI.
 
 A workflow is configured in Apache NiFi to replicate the LDES members into PostgreSQL. You will find an Apache NiFi configuration file containing the necessary data flow.
 
@@ -84,7 +79,7 @@ A workflow is configured in Apache NiFi to replicate the LDES members into Postg
 
 3. Create a local docker-compose.yml file with [the following good-to-go configuration](https://github.com/Informatievlaanderen/VSDS-LDESDemo/blob/master/geoserver/docker-compose.yml)
 
-4. Run  ```docker-compose up --build```
+4. Run `docker-compose up --build`
 
 5. import the workflow in Apache NiFi (localhost:8443) via this [configuration file](https://github.com/Informatievlaanderen/VSDS-LDESDemo/blob/master/geoserver/Gipod2GeoServer.json)
 
@@ -103,13 +98,11 @@ A workflow is configured in Apache NiFi to replicate the LDES members into Postg
 {: .highlight }
 You can find more information in [this article](https://medium.com/p/5cd8379d32)
 
-
-
 ## GeoServer
 
-<p align="center"><img src="/VSDS-Tech-Docs/images/geoserver.png"  width="80%" text-align="center"></p>
+<p align="center"><img src="https://samuvack.github.io/Techdoc/images/geoserver.png"  width="80%" text-align="center"></p>
 
-In this [Github repo](https://github.com/Informatievlaanderen/VSDS-LDESDemo/tree/master/geoserver), you will find a docker file with the configuration of PostgreSQL, Apache NiFi and Geoserver. 
+In this [Github repo](https://github.com/Informatievlaanderen/VSDS-LDESDemo/tree/master/geoserver), you will find a docker file with the configuration of PostgreSQL, Apache NiFi and Geoserver.
 
 A data flow is configured in Apache NiFi to convert these data streams into PostgreSQL. You will find an Apache NiFi configuration file containing the necessary data flow. This Apache NiFi data flow works also for storing LDES members in a PostgreSQL database.
 
@@ -119,7 +112,7 @@ A data flow is configured in Apache NiFi to convert these data streams into Post
 
 3. Create a local docker-compose.yml file with [the following good-to-go configuration](https://github.com/Informatievlaanderen/VSDS-LDESDemo/blob/master/geoserver/docker-compose.yml)
 
-4. Run  ```docker-compose up --build```
+4. Run `docker-compose up --build`
 
 5. import a data flow in Apache NiFi (localhost:8443) via this configuration file
 6. Assign and LDES endpoint in the LDES client
@@ -139,24 +132,16 @@ A data flow is configured in Apache NiFi to convert these data streams into Post
 {: .highlight }
 You can find more information in [this article](https://medium.com/geekculture/enriching-digital-twins-with-linked-data-event-streams-285630a02b82)
 
-
-
 ## LDES to QGIS
 
-<p align="center"><img src="/VSDS-Tech-Docs/images/qgis.png"  width="80%" text-align="center"></p>
+<p align="center"><img src="https://samuvack.github.io/Techdoc/images/qgis.png"  width="80%" text-align="center"></p>
 
-
-
-1. Follow the steps from [LDES to PostgreSQL/TimescaleDB](https://informatievlaanderen.github.io/VSDS-Tech-Docs/docs/LDES2Service.html#data-science-ldes-to-postgresqltimescaledb)
+1. Follow the steps from [LDES to PostgreSQL/TimescaleDB](https://informatievlaanderen.github.iohttps://samuvack.github.io/Techdoc/docs/LDES2Service.html#data-science-ldes-to-postgresqltimescaledb)
 
 2. Connecting QGIS to a PostgreSQL/PostGIS database lets you access and visualise your geo data in real-time.
 
-
-
 {: .highlight }
 You can find more information in [this article](https://medium.com/geekculture/visualizing-linked-data-event-streams-with-qgis-da25b6ccfc1b)
-
-
 
 ## Machine Learning (ML-LDES server)
 
@@ -164,11 +149,9 @@ You can find more information in [this article](https://medium.com/geekculture/v
 This is a prototype!!
 ```
 
-<p align="center"><img src="/VSDS-Tech-Docs/images/ml.png"  width="80%" text-align="center"></p>
+<p align="center"><img src="https://samuvack.github.io/Techdoc/images/ml.png"  width="80%" text-align="center"></p>
 
-
-In this [Github repo](https://github.com/samuvack/ML-LDES-server), you will find a docker file with the configuration of PostgreSQL and Apache NiFi. 
-
+In this [Github repo](https://github.com/samuvack/ML-LDES-server), you will find a docker file with the configuration of PostgreSQL and Apache NiFi.
 
 A data flow is configured in Apache NiFi to convert these data streams into PostgreSQL. You will find an Apache NiFi configuration file containing the necessary data flow. This Apache NiFi data flow works also for storing LDES members in a PostgreSQL database.
 
@@ -180,7 +163,7 @@ A data flow is configured in Apache NiFi to convert these data streams into Post
 
 4. Create a local docker-compose.yml file with [the following good-to-go configuration](https://github.com/samuvack/ML-LDES-server/blob/master/docker-compose.yml)
 
-5. Run  ```docker-compose up --build```
+5. Run `docker-compose up --build`
 
 6. import a data flow in Apache NiFi (localhost:8443) via this configuration file
 
