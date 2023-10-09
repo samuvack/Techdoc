@@ -1,7 +1,7 @@
 ---
 title: Quick start
 layout: home
-sort: 1
+sort: 0
 ---
 
 # Quick start
