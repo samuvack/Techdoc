@@ -4,11 +4,11 @@ layout: home
 nav_order: 0
 ---
 
-# Linked Data Interactions Project
+# VSDS Technical Documentation
 
 ## Introduction
 
-The Linked Data Interactions project is an effort to make interactions with Linked Data more fluently by providing easy building blocks. 
+The Opensource building blocks Linked Data Interactions project is an effort to make interactions with Linked Data more fluently by providing easy building blocks. 
 
 This project was created in function of the [VSDS project]
 

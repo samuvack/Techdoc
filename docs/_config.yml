@@ -38,14 +38,6 @@ collections:
     permalink: "/:collection/:path"
     output: true
 
-# Aux links for the upper right navigation
-aux_links:
-  "VSDS Linked Data Interactions":
-    - "https://informatievlaanderen.github.io/VSDS-Linked-Data-Interactions/"
-
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: true
-
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
