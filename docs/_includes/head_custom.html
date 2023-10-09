@@ -1,10 +1,56 @@
 <div class="global-header" data-v-df634f57="">
   <img src="/Techdoc/images/LOGO_Vlaanderen_NIV2.svg" alt="Vlaanderen" data-v-df634f57="">
   <img class="small-global-header-divider" src="/Techdoc/images/divider_globalheader.svg" alt="divider" data-v-df634f57="">
-  <!--span class="header-title header-font" data-v-df634f57="">Vlaamse Smart Data Space</span-->
-  <!--span class="spacer" data-v-df634f57=""></span-->
+  <span class="header-title header-font" data-v-df634f57="">Vlaamse Smart Data Space</span>
+  <span class="spacer" data-v-df634f57=""></span>
   <div id="help-needed" data-v-df634f57="">
     <span class="header-font" data-v-df634f57="">Hulp nodig</span>
     <img class="question-menu-item" src="/Techdoc/images/question-mark.svg" alt="?" data-v-df634f57="">
   </div>
 </div>
+
+<style>
+#help-needed[data-v-df634f57] {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-image: url(src/assets/svgs/global-header/hulp_nodig.svg);
+    width: 144px;
+    height: 44px;
+}
+
+.global-header[data-v-df634f57] {
+    display: flex;
+    margin-left: 8px;
+    align-items: center;
+}
+
+
+element.style {
+}
+
+.small-global-header-divider[data-v-df634f57] {
+    margin: 0 8px 0 4px;
+}
+
+.header-font {
+    color: #333332;
+    font-family: Flanders Art Sans, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.divider {
+    border: 1px solid #cfd5dd;
+    margin: 0;
+}
+
+</style>
